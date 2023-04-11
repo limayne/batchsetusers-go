@@ -10,7 +10,7 @@ A tool for setting up multiple user accounts &amp; random password with go scrip
 
 -----------------------------------------------------------------
 Current features
-- Go改编，跨平台（旧Shell版本请见：https://github.com/limayne/batchsetusers-bash）
+- Go改编，跨平台（旧Shell版本请见：https://github.com/limayne/batchsetusers-bash ）
 - 自动化批量创建用户账户，提高了运维的效率，节省了时间和人力成本
 - 生成随机密码，提高了安全性，减少了管理员为每个用户设置密码的麻烦
 - 写入用户和密码信息文件和日志文件，方便管理员管理和分发密码，以及监控用户创建操作的日志
