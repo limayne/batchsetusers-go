@@ -1,2 +1,16 @@
 # batchsetusers-go
-Set up multiple user accounts &amp; random password with go scripts
+A tool for setting up multiple user accounts &amp; random password with go scripts.
+当需要为一个团队或组织中的多个成员批量创建用户账户时，可以使用该脚本来自动化这个过程，而不必手动一个一个地创建账户。
+当需要在多个服务器或平台上创建用户账户时，可以使用该脚本来实现统一管理，进行检查权限、检查用户名是否符合命名规范、检查用户是否存在等工作，可以减少运维手动检查的工作量，减少出错的可能性。
+由Shell版本改编-请见：
+----------------------------------------------------------------------
+
+Current features
+- Go改编，跨平台
+- 自动化批量创建用户账户，提高了运维的效率，节省了时间和人力成本
+- 生成随机密码，提高了安全性，减少了管理员为每个用户设置密码的麻烦
+- 写入用户和密码信息文件和日志文件，方便管理员管理和分发密码，以及监控用户创建操作的日志
+
+Future Modifications
+- 加入检测用户输入内容合法功能
+- 密码信息文件加密功能
